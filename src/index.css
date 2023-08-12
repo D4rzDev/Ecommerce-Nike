@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Bruno Ace SC', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.homepage{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product1{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+}
+
