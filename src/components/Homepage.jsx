@@ -2,9 +2,10 @@ import React from 'react'
 
 const Homepage = () => {
   return (
-    <div className=' px-2'>
-        <div className='flex flex-col justify-between homepage bg-[url("/assets/homepage.jpg")] rounded-xl h-[500px] px-6 py-10 lg:h-[600px]'>
-            <div>
+     <div className=''>
+        <div className=' w-full h-screen flex flex-col justify-between homepage px-10 pb-10' >
+            <img className='absolute left-0 w-full h-screen object-cover z-[-10]' src="/assets/homepage.jpg" alt="" />
+            <div className=' pt-10'> 
                 <h1 className=' text-7xl text-white lg:text-9xl'>Nike</h1>
                 <h1 className=' text-7xl text-white lg:text-9xl'>Air</h1>
                 <img className=' h-20 lg:h-28' src="/assets/nike1.png" alt="" />
