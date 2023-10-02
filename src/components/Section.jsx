@@ -10,7 +10,7 @@ const Section = () => {
             </div>
             <img className=' h-[230px] pt-4 md:h-[500px] lg:h-[940px] lg:w-full' src="/assets/new1.png" alt="" />
         </div>
-         <img className=' h-[300px] md:h-[580px] lg:h-[1000px]' src="/assets/new2.png" alt="" />
+         <img className=' h-[300px] md:h-[580px] lg:h-[1000px] lg:w-full' src="/assets/new2.png" alt="" />
 
     </div>
   )
